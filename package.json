@@ -1,0 +1,17 @@
+{
+  "name": "learning-grid-layout-demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "gh-pages-deploy": "gh-pages"
+  },
+  "devDependencies": {
+    "vite": "latest",
+    "gh-pages": "latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
