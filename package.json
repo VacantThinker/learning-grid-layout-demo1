@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "gh-pages-deploy": "gh-pages"
+    "git-push": "git add . && git commit -m 'update' && git push",
+    "gh-pages-deploy": "vite build && gh-pages -d dist"
   },
   "devDependencies": {
     "vite": "latest",
